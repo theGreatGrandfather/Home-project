@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+._list {
+    list-style: none;
+}
+
+._link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+body {
+    display: block;
+    margin: 0;
+}

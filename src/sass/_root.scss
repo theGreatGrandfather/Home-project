@@ -1,0 +1,22 @@
+$primery-text-color: #333333;
+$secondary-text-color:#BDBDBD;
+
+$primery-bgc: #ffffff;
+$secondary-bgc: #F2F2F2;
+$third-bgc: #F9F9F9;
+$color_black: #000000;
+
+$color_accent: #5d20c7;
+$transition__stock: all 300ms linear;
+
+
+$primery_font: 'Roboto', sans-serif;
+$secondury_font: 'Lato', sans-serif;
+
+body {
+font-family: $primery_font;
+background-color: $primery-bgc;
+}
+* {
+outline: 1px solid red;
+}

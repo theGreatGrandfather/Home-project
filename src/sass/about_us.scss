@@ -1,0 +1,64 @@
+.about-us__section {
+}
+
+.about-us__container {
+    display: flex;
+    background-color: #FBFBFB;
+    gap: 30px;
+}
+
+.about-us__pictures {
+    display: flex;
+    gap: 30px;
+
+    
+}
+.pictures-left {
+    display: flex;
+
+}
+.pictures-left-top {
+}
+.pictures-left-bottom {
+}
+.pictures-right {
+
+}
+.about-us__decorative-container {
+
+}
+.section__title {
+}
+.about-us__description {
+}
+.about-us__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 12px;
+    background-color: $primery-bgc;
+    color: $primery-text-color;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding: 30px 65px;
+    transition: $transition__stock;
+    &:hover,
+    &:focus{
+        background-color: $secondary-text-color;
+        
+    }
+    &:hover svg,
+    &:focus svg{
+        transform: scale(1.25);
+        
+    }
+}
+
+
+.hero__link__icon {
+}
